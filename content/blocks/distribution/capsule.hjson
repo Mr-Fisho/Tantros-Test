@@ -6,5 +6,6 @@ bauxite/40
 ]
 itemCapacity: 40
 liquidCapacity: 40
+parent: sealed-overflow
 category: distribution
 envEnabled: 4
