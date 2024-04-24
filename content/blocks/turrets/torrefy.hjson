@@ -11,7 +11,7 @@ research: {
 planet: tantros
 parent: forment
 }
-range: 130
+range: 140
 shootY: 4
 reload: 45
 envEnabled: 4
@@ -23,7 +23,7 @@ amount: .15
 }
 }
 shoot: {
-shots: 3
+shots: 12
 shootCone: 45
 }
 inaccuracy: 12
