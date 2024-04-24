@@ -16,7 +16,7 @@ squareSprite: false
 research: {
 planet: tantros
 name: Cargo Depot
-parent: sealedconveyor
+parent: cargo-depot
 requirements: [
 lead/25
 ]
