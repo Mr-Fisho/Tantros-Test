@@ -18,7 +18,7 @@ bulletSpeed: 2.5
 shake: 0
 research: {
 planet: tantros
-parent: sealedconveyor
+parent: cargo-dock
 requirements: [
 sodium/100
 bauxite/200
