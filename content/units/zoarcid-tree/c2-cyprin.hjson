@@ -4,15 +4,17 @@ envEnabled: 4
 localizedName: Cyprin
 drag: .2
 speed: 3
+rotateSpeed: 4
 outlineColor: 2f3734
 rotateSpeed: 2
-lowAltitude: false
+lowAltitude: true
 accel: .1
+targetAir: false
 itemCapacity: 125
 faceTarget: true
-health: 2300
+health: 1280
 engineSize: 0
-armor: 3
+armor: 5
 hitSize: 16
 abilities: [
 {
@@ -34,7 +36,7 @@ sizeFrom: 5
 sizeTo: 0
 colorFrom: 8ca4fc
 colorTo: 8ca4fc50
-layer: 110.3
+layer: 80.3
 rotWithParent: true
 }
 {
@@ -49,7 +51,7 @@ sizeFrom: 6
 sizeTo: 1
 colorFrom: 6d5e5e
 colorTo: 31282750
-layer: 110.2
+layer: 80.2
 rotWithParent: true
 }
 {
@@ -64,7 +66,7 @@ sizeFrom: 5
 sizeTo: 0
 colorFrom: 6d5e5e
 colorTo: 46403f50
-layer: 110.1
+layer: 80.1
 rotWithParent: true
 }
 ]
@@ -88,7 +90,7 @@ sizeFrom: 5
 sizeTo: 0
 colorFrom: 8ca4fc
 colorTo: 8ca4fc50
-layer: 110.3
+layer: 80.3
 rotWithParent: true
 }
 {
@@ -103,7 +105,7 @@ sizeFrom: 6
 sizeTo: 1
 colorFrom: 6d5e5e
 colorTo: 31282750
-layer: 110.2
+layer: 80.2
 rotWithParent: true
 }
 {
@@ -118,7 +120,7 @@ sizeFrom: 5
 sizeTo: 0
 colorFrom: 6d5e5e
 colorTo: 46403f50
-layer: 110.1
+layer: 80.1
 rotWithParent: true
 }
 ]
@@ -158,10 +160,38 @@ lifetime: 20
 speed: 6
 collidesAir: false
 splashDamage: 35
+despawnEffect: {
+line: true
+particles: 12
+lifetime: 45
+length: 6
+baseLength: 0
+interp: pow10Out
+sizeInterp: linear
+cone: 45
+sizeFrom: 4
+sizeTo: 0
+colorFrom: b2d3cf
+colorTo: 637e8e
+}
+hitEffect: {
+line: true
+particles: 12
+lifetime: 45
+length: 6
+baseLength: 0
+interp: pow10Out
+sizeInterp: linear
+cone: 45
+sizeFrom: 4
+sizeTo: 0
+colorFrom: b2d3cf
+colorTo: 637e8e
+}
 pierce: true
 pierceCap: 5
-damage: 45
-splashDamageradius: 15
+damage: 55
+splashDamageRadius: 15
 width: 10
 height: 16
 frontColor: 8ca4fc
@@ -210,6 +240,7 @@ recoilIndex: 1
 {
 name: missile-battery
 layerOffset: -.01
+targetAir: false
 shoot: {
 type: ShootBarrel
 barrels: [
@@ -219,6 +250,7 @@ barrels: [
 }
 ignoreRotation: true
 reload: 35
+targetAir: false
 rotate: false
 shootCone: 360
 x: 0
