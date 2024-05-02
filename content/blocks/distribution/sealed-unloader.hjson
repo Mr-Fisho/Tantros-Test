@@ -8,6 +8,7 @@ lead/20
 ]
 research: {
 planet: tantros
-parent: sealedconveyor
+parent: sealedrouter
 }
 envEnabled: 4
+speed: 4.5

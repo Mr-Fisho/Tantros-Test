@@ -1,18 +1,16 @@
 tier: 6
-optionalBoostIntensity: 1.8
+liquidBoostIntensity: 1
 squareSprite: false
 category: production
-warmupSpeed: .1
-drillTime: 220
-hardnessDrillMultiplier: 10
+warmupSpeed: .2
+drillTime: 230
+hardnessDrillMultiplier: 5
 consumes: {
-power: 3
-liquids: [
-{
+power: 0.83333333333
+liquid: {
 liquid: hydrogen
 amount: .075
 }
-]
 }
 drillEffect: {
 particles: 5

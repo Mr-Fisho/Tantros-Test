@@ -6,7 +6,7 @@ requirements: [
   bauxite/24
   ]
   research: {
-  parent: core-pike
+  parent: small-bauxite-wall
     planet: tantros
     requirements: [
     bauxite/150

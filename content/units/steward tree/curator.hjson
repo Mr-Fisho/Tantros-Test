@@ -6,6 +6,7 @@ omniMovement: false
 health: 650
 targetGround: false
 drawCell: false
+envEnabled: 4
 abilities: [
 {
 type: RepairFieldAbility
@@ -150,3 +151,7 @@ hitColor: 3a8f64
 }
 }
 ]
+research: {
+planet: tantros
+parent: steward
+}

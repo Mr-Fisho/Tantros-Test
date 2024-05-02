@@ -5,7 +5,7 @@ pumpAmount: 0.12222222222
 category: liquid
 size: 3
 consumes: {
-power: 9.5
+power: 2.08333333333
 }
   liquidCapacity: 60
   hasPower: true
@@ -30,13 +30,13 @@ type: drawDefault
 {
 type: drawRegion
 suffix: -rotator
-rotateSprite: true
+spinSprite: true
 rotateSpeed: 5
 }
 {
 type: drawRegion
 suffix: -rotator
-rotateSprite: true
+spinSprite: true
 rotateSpeed: 5
 rotation: 45
 }

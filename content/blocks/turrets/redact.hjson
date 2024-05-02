@@ -12,7 +12,7 @@ shots: 5
 shotDelay: 8
 }
 consumes: {
-power: 4
+power: 4.16666666667
 }
 requirements: [
 lead/110
@@ -33,10 +33,8 @@ damage: 40
 pointEffectSpace: 6
 ammoMultiplier: 1
 shootEffect: none
-ejectEffect: casing2
 smokeEffect: {
 line: true
-shootSound: bolt
 cone: 60
 particles: 4
 lenFrom: 7

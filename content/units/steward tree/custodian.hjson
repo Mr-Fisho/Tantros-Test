@@ -5,6 +5,7 @@ rotateSpeed: 1.1
 targetGround: false
 template: TankUnitType
 drawCell: false
+envEnabled: 4
 crushDamage: 1
 health: 980
 armor: 6
@@ -150,3 +151,8 @@ colorTo: 3a8f64
 }
 }
 ]
+envEnabled: 4
+research: {
+parent: curator
+planet: tantros
+}

@@ -1,18 +1,21 @@
 
-size: 2
-range: 170
-rotateSpeed: .2
-chargeTime: 120
-maxPayloadSize: 2
-grabWidth: 2.5
+size: 1
+range: 250
+rotateSpeed: .4
+chargeTime: 90
+maxPayloadSize: 1
+grabWidth: 3
 length: 3
-grabHeight: 1
-shake: 1
+grabHeight: 3
+shake: 0
+consumes: {
+power: 0.08333333333
+}
 requirements: [
-manganese/70
-nitride/80
-lead/120
-bauxite/60
+manganese/35
+nitride/30
+lead/30
+bauxite/40
 ]
 category: distribution
 envEnabled: 4
