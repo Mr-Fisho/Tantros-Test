@@ -2,6 +2,7 @@
 category: turret
 squareSprite: false
 inaccuracy: 2
+researchCostMultiplier: .25
 reload: 55
 shoot: {
     firstShotDelay: 35
@@ -29,10 +30,10 @@ requirements: [
     bauxite/60
 ]
 range: 120
-coolantMultiplier: 5
+coolantMultiplier: 20
 consumes: {
     coolant: {
-        amount: 0.1
+        amount: 0.03333333333
     }
 }
 size: 3

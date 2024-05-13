@@ -1,7 +1,10 @@
-
+researchCostMultiplier: .25
+research: {
+parent: hydroxide-reactor
+planet: tantros
+}
 heatOutput: 12
 consumes: {
-power: 4.16666666667
 liquids: [
 nitrogen/.75
 cyan/.1
